@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html ng-app="appmodule">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/Login/Module.js"></script>
+<script type="text/javascript" src="js/Login/LoginLogic.js"></script>
+
+
+</head>
+<body ng-controller="logincontroller">
+    <h1>The Security Information View</h1>
+    <table class="table table-bordered table-striped table-condensed">
+        <tr>
+            <td>
+                <table class="table table-bordered table-striped table-condensed">
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="text" class="form-control"
+                                   ng-model="userRegistrationEmail" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password" class="form-control"
+                                   ng-model="userRegistrationPassword" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td>
+                            <input type="password" class="form-control"
+                                   ng-model="userRegistrationConfirmPassword" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Register"
+                                   class="form-control btn btn-success"
+                                   ng-click="registerUser()" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <table class="table table-bordered table-striped table-condensed">
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="text" class="form-control"
+                                   ng-model="userLoginEmail" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password"
+                                   class="form-control"
+                                   ng-model="userLoginPassword" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Login" class="form-control btn btn-success"
+                                   ng-click="login()" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <div> </div>
+
+    <a href="js/jquery-3.1.0.min.js" rel="nofollow" target="_blank">http://~/Scripts/jquery-2.1.4.min.js</a>
+    <a href="js/bootstrap.min.js" rel="nofollow" target="_blank">http://~/Scripts/bootstrap.min.js</a>
+    <a href="js/angular.min.js" rel="nofollow" target="_blank">http://~/Scripts/angular.min.js</a>
+    <a href="js/Login/Module.js" rel="nofollow" target="_blank">http://~/Scripts/MyScripts/Module.js</a>
+    <a href="js/Login/LoginLogic.js" rel="nofollow" target="_blank">http://~/Scripts/MyScripts/LoginLogic.js</a>
+</body>
+</html>

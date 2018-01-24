@@ -1,0 +1,132 @@
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\ApplicationInsights.config
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\csc.exe
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\vbc.exe
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\VBCSCompiler.exe
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\IEA_PowerApps.dll.config
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\IEA_PowerApps.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\IEA_PowerApps.pdb
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.Web.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.ApplicationInsights.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.Web.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.ApplicationInsights.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\obj\Debug\IEA_PowerApps.dll
+c:\users\ssharma\documents\visual studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\obj\Debug\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_PowerApps\IEA_PowerApps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\csc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\vbc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\VBCSCompiler.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\ApplicationInsights.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\IEA_PowerApps.dll.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.Web.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.Web.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\obj\Debug\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\IEA_powerApps_Prod\Power_Apps\obj\Debug\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\ApplicationInsights.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\csc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\vbc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\VBCSCompiler.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\IEA_PowerApps.dll.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.Web.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.Web.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\obj\Debug\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\Production_build_meterO1.1\Power_Apps\obj\Debug\IEA_PowerApps.pdb
+C:\inetpub\wwwroot\Power_Apps\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\Power_Apps\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\Power_Apps\bin\IEA_PowerApps.dll.config
+C:\inetpub\wwwroot\Power_Apps\bin\IEA_PowerApps.dll
+C:\inetpub\wwwroot\Power_Apps\bin\IEA_PowerApps.pdb
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.Agent.Intercept.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.DependencyCollector.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.Web.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.WindowsServer.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.ApplicationInsights.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.dll
+C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.pdb
