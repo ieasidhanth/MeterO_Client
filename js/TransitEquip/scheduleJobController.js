@@ -1,7 +1,7 @@
 ﻿app.controller('scheduleJobController', ['$scope','$rootScope','ajaxService','$window','$localStorage', function($scope,$rootScope,ajaxService,$window,$localStorage){
   jsonObject1=[];
-  //var postScheduleUrl="http://10.10.10.75:60000/api/icontrol/ScheduleBatch";
-  var postScheduleUrl="http://10.10.10.75:60000/api/icontrol/TransferBatch";
+  //var postScheduleUrl="http://localhost:60000/api/icontrol/ScheduleBatch";
+  var postScheduleUrl="http://localhost:60000/api/icontrol/TransferBatch";
 
 	$scope.schedule=function()
 	{

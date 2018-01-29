@@ -3,7 +3,7 @@ app.service('loginservice',['$http', function ($http) {
  
     this.register = function (userInfo) {
         var resp = $http({
-            url: "http://10.10.10.75:60000/api/Account/Register",
+            url: "http://localhost:60000/api/Account/Register",
             method: "POST",
             data: userInfo,
         });
@@ -13,7 +13,7 @@ app.service('loginservice',['$http', function ($http) {
     this.login = function (userlogin) {
          
         var resp = $http({
-            url: "http://10.10.10.75:60000/TOKEN",
+            url: "http://localhost:60000/TOKEN",
             method: "POST",
             data: $.param({ grant_type: 'password', username: userlogin.username, password: userlogin.password }),
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

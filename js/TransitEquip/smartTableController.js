@@ -6,7 +6,7 @@ app.controller('getDataCtrl', ['$scope','ajaxService','$rootScope', function ($s
     var manufacturers = [];
     //var data = { 'jobId': '1000' };
     var data = {  };
-    var getEquipmentssurl = 'http://10.10.10.75:60000/api/icontrol/gettorquetools';
+    var getEquipmentssurl = 'http://localhost:60000/api/icontrol/gettorquetools';
     //ajax service call for page load
     $rootScope.showTableLoad=false;
     $rootScope.showTableLoadspinner=true;
@@ -421,7 +421,7 @@ $scope.rowSelect =function(row)
             var data=row.EquipmentID;
             var myObj = { "EquipmentID":row.EquipmentID};
             var myJSON = JSON.stringify(myObj);
-            var getEquipmentHistoryURL="http://10.10.10.75:60000/api/icontrol/TrackEquipment";
+            var getEquipmentHistoryURL="http://localhost:60000/api/icontrol/TrackEquipment";
             ajaxService.postReq(getEquipmentHistoryURL,myJSON)
                                             .then(function(values)
                                             {

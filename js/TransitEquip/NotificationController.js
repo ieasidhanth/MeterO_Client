@@ -1,7 +1,7 @@
 app.controller('NotificationController', ['$scope','$rootScope','ajaxService','$window', function($scope,$rootScope,ajaxService,$window){
-var getBatchIds='http://10.10.10.75:60000/api/icontrol/getInProgressBatchIDs';
-var getBtachEquipments='http://10.10.10.75:60000/api/icontrol/getBatchDetails';
-var updateBatchURL='http://10.10.10.75:60000/api/icontrol/updateBatch';
+var getBatchIds='http://localhost:60000/api/icontrol/getInProgressBatchIDs';
+var getBtachEquipments='http://localhost:60000/api/icontrol/getBatchDetails';
+var updateBatchURL='http://localhost:60000/api/icontrol/updateBatch';
 
 $scope.Batchs=[{}];
 $scope.BatchCount=0;

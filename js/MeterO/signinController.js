@@ -1,6 +1,6 @@
 ﻿app.controller('signinController', ['$scope','ajaxService','$rootScope','$localStorage','$window', function ($scope, ajaxService,$rootScope,$localStorage,$window) {
 $scope.UserLoggedIn=sessionStorage.getItem("UserFullName");
-var logoutURL="http://10.10.10.75:60000/api/metero/disconnectSession"
+var logoutURL="http://localhost:60000/api/metero/disconnectSession"
 var idleTime = 0;
 var myObj = { "SessionId": sessionStorage.getItem("SID"), "message": "logout" };
 var myJSON = JSON.stringify(myObj);

@@ -1,5 +1,5 @@
 app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localStorage','$window','$cookies','$cookieStore', function ($scope, ajaxService1,$rootScope,$localStorage,$window,$cookies,$cookieStore) {
-    var validateUserUrl ='http://10.10.10.75:60000/api/metero/validateUser';
+    var validateUserUrl ='http://localhost:60000/api/metero/validateUser';
     
     	if($cookieStore.get("IEA_PowerApps_username")!==undefined && $cookieStore.get("IEA_PowerApps_password")!==undefined)
     	{
