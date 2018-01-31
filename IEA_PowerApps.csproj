@@ -132,10 +132,12 @@
     <Content Include="js\MeterO\scheduleJobController.js" />
     <Content Include="js\MeterO\signinController.js" />
     <Content Include="js\MeterO\smart-table.js" />
+    <Content Include="js\MeterO\getPersonalEquipments.js" />
     <Content Include="js\MeterO\smartTableController.js" />
     <Content Include="js\MeterO\table-fixed-header.js" />
     <Content Include="js\MeterO\TransferButtonController.js" />
     <Content Include="js\MeterO\underscore.js" />
+    <Content Include="pagination_DailyLogsEntryScreen.html" />
     <Content Include="UpdateInfo.html" />
     <Content Include="js\quagga.js" />
     <Content Include="js\stStickyHeader.js" />

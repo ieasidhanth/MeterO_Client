@@ -1,8 +1,8 @@
 app.controller('MeterSubmitController', ['$scope','ajaxService','$rootScope','$localStorage','$window', function ($scope, ajaxService,$rootScope,$localStorage,$window) {
 var selectedJob="";
 var Role_ID=sessionStorage.getItem("Role_ID").replace(/(^"|"$)/g, '');
-var submitUrl="http://localhost:60000/api/metero/SubmitReadings";
-var verifyremainingequipmentsURL="http://localhost:60000/api/metero/reviewremainingEquipments";
+var submitUrl="http://localhost:3500/api/metero/SubmitReadings";
+var verifyremainingequipmentsURL="http://localhost:3500/api/metero/reviewremainingEquipments";
 
 if((parseInt(Role_ID)==parseInt(3)) || (parseInt(Role_ID)==parseInt(2)) || (parseInt(Role_ID)==parseInt(1)))
 {
@@ -283,7 +283,7 @@ $scope.removeItem=function(row)
     //alert(row.Equipment);
     var jsonObject=[];
     jsonObject.push(row);
-    var deleterowURL="http://localhost:60000/api/metero/deleteTransaction";
+    var deleterowURL="http://localhost:3500/api/metero/deleteTransaction";
     var postdata=JSON.stringify(jsonObject);
      $.confirm({
                             title:'Delete '+row.Equipment+' status' ,
@@ -338,7 +338,7 @@ $rootScope.$on('metersubmittabchanged', function (event, args) {
         var jobId =args.jobId;
         //alert('from smarttable'+jobId);
         selectedJob=args.jobId;
-        var reviewEquipmentssurl='http://localhost:60000/api/metero/reviewSubmit';
+        var reviewEquipmentssurl='http://localhost:3500/api/metero/reviewSubmit';
         var data = { 'jobId': selectedJob };
         
         var reviewequipmentcount=0;

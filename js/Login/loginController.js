@@ -1,5 +1,5 @@
 app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localStorage','$window','$cookies','$cookieStore', function ($scope, ajaxService1,$rootScope,$localStorage,$window,$cookies,$cookieStore) {
-    var validateUserUrl ='http://localhost:60000/api/metero/validateUser';
+    var validateUserUrl ='http://localhost:3500/api/metero/validateUser';
     
     	if($cookieStore.get("IEA_PowerApps_username")!==undefined && $cookieStore.get("IEA_PowerApps_password")!==undefined)
     	{
@@ -77,11 +77,16 @@ app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localS
 									            	//$localStorage.UserFullName=response[0].Name;
 									            	//$localStorage.Sessionid=response[0].SessionID;
 									            	//$localStorage.UserObject = response[0];
+                                                    console.clear();
+                                                    console.log(response[0]);
                                                     sessionStorage.setItem('UserId', (userName));
                                                     sessionStorage.setItem('UserFullName', (response[0].Name));
                                                     sessionStorage.setItem('SID', (response[0].SessionID));
                                                     sessionStorage.setItem('UserObject', (response[0]));
                                                     sessionStorage.setItem('RoleInfo',(response[0].RoleInfo));
+                                                    sessionStorage.setItem('EmployeeID', (response[0].EmployeeID));
+                                                    sessionStorage.setItem('Company', (response[0].Company));
+                                                    sessionStorage.setItem('EmailID', (response[0].EmailID));
                                                     var roles=response[0].RoleInfo.split('#');
                                                     var loop=0;
                                                     
@@ -100,7 +105,7 @@ app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localS
                                                     	role_data.push(rowitem);
 
                                                     }
-                                                    console.log(role_data);
+                                                   // console.log(role_data);
                                                     $scope.roleDatacollection=role_data;
                                                     if(role_data.length==1)
                                                     {
@@ -122,6 +127,10 @@ app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localS
                                                             sessionStorage.setItem('App_ID', (app["App_ID"]));
                                                             sessionStorage.setItem('App_Name', (app["App_Name"]));
                                                             sessionStorage.setItem('showUpdateMessage', 1);
+                                                            
+
+                                                           // $rootScope.$broadcast('loggedIn',{'EmployeeID':app["EmployeeID"]});
+
                                                             $window.location.href = relocurl;
 
                                                         }
@@ -146,6 +155,7 @@ app.controller('loginController', ['$scope','ajaxService1','$rootScope','$localS
 	                                                            sessionStorage.setItem('App_ID',(app["App_ID"]));
 	                                                            sessionStorage.setItem('App_Name',(app["App_Name"]));
 	                                                            sessionStorage.setItem('showUpdateMessage',1);
+
 	                                                            $window.location.href = relocurl;
 
 	                                                        }

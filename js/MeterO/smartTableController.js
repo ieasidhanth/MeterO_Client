@@ -9,7 +9,7 @@ app.controller('getDataCtrl', ['$scope','ajaxService','$rootScope','$localStorag
     $scope.ShowingCurrentCount='All';
     //var data = { 'jobId': '1000' };
     var data = {  };
-    var getEquipmentssurl = 'http://localhost:60000/api/icontrol/gettorquetools';
+    var getEquipmentssurl = 'http://localhost:3500/api/icontrol/gettorquetools';
     //ajax service call for page load
     $rootScope.showTableLoad=false;
     $rootScope.showTableLoadspinner=true;
@@ -191,7 +191,7 @@ $scope.SaveAll=function(item)
                               
                 });
    	
-   	var postScheduleUrl="http://localhost:60000/api/metero/addTransaction";
+   	var postScheduleUrl="http://localhost:3500/api/metero/addTransaction";
     var postdata=JSON.stringify(jsonObject);
     var proceed=false;
     if(collection_faulty.length>0)
@@ -754,7 +754,7 @@ function validatedecimal(inputval)
     console.log(row);
     var jsonObject=[];
     jsonObject.push(row);
-    var postScheduleUrl="http://localhost:60000/api/metero/addTransaction";
+    var postScheduleUrl="http://localhost:3500/api/metero/addTransaction";
     var postdata=JSON.stringify(jsonObject);
     $.ajax({
                                                 url: postScheduleUrl,
@@ -1074,8 +1074,8 @@ $scope.getClass = function (row) {
        // $("#toggle-event").prop("checked", false).change();
         //alert('from smarttable'+jobId);
         selectedJob=args.jobId;
-        getEquipmentssurl='http://localhost:60000/api/metero/getequipments';
-        var reviewEquipmentssurl='http://localhost:60000/api/metero/reviewSubmit';
+        getEquipmentssurl='http://localhost:3500/api/metero/getequipments';
+        var reviewEquipmentssurl='http://localhost:3500/api/metero/reviewSubmit';
         var data = { 'jobId': jobId };
         var equipmentcount=0;
         var reviewequipmentcount=0;
@@ -1133,8 +1133,8 @@ $scope.getClass = function (row) {
     {
     	
     	
-    	var getEquipmentssurl1='http://localhost:60000/api/metero/getequipments';
-        var reviewEquipmentssurl1='http://localhost:60000/api/metero/reviewSubmit';
+    	var getEquipmentssurl1='http://localhost:3500/api/metero/getequipments';
+        var reviewEquipmentssurl1='http://localhost:3500/api/metero/reviewSubmit';
         var data = { 'jobId': selectedJob };
         var equipmentcount=0;
         var reviewequipmentcount=0;
@@ -1418,7 +1418,7 @@ function removeRow()
 }
 $scope.Email=function()
 {
-	var mailtoURL="http://localhost:60000/api/metero/EmailEquipments/"
+	var mailtoURL="http://localhost:3500/api/metero/EmailEquipments/"
 
 	$.confirm({
     title: 'Email List!',
@@ -1519,7 +1519,7 @@ $scope.Email=function()
 $scope.addnotes=function(row)
 {
 	//alert(row.Notes);
-	var updateUrl="http://localhost:60000/api/metero/updateNotesViewpoint/"
+	var updateUrl="http://localhost:3500/api/metero/updateNotesViewpoint/"
 	var UpdateNotes;
 	if((row.Notes)===null)
 	{

@@ -11,7 +11,7 @@ app.service('empservice'['$http', function ($http) {
         }
  
         var response = $http({
-            url: "http://localhost:60000/api/employeeapi/get",
+            url: "http://localhost:3500/api/employeeapi/get",
             method: "GET",
             headers: authHeaders
         });

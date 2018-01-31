@@ -13,7 +13,7 @@ else
 $scope.clearall=function()
 {
     
-    var clearURL="http://localhost:60000/api/metero/ClearAllNotes";
+    var clearURL="http://localhost:3500/api/metero/ClearAllNotes";
     var postdata={'jobId': selectedJob};
    // alert(postdata);
    // console.log(postdata);
@@ -70,7 +70,7 @@ $rootScope.$on('editEquiptabchanged', function (event, args) {
         var jobId =args.jobId;
         //alert('from smarttable'+jobId);
         selectedJob=args.jobId;
-        var getEquipmentssurl='http://localhost:60000/api/metero/getequipments';
+        var getEquipmentssurl='http://localhost:3500/api/metero/getequipments';
         
         var data = { 'jobId': selectedJob };
         
@@ -125,7 +125,7 @@ $rootScope.update=function(row)
     console.log(row);
     var jsonObject=[];
     jsonObject.push(row);
-    var postScheduleUrl="http://localhost:60000/api/metero/updateEquipment";
+    var postScheduleUrl="http://localhost:3500/api/metero/updateEquipment";
     var postdata=JSON.stringify(jsonObject);
 
     $.ajax({
@@ -212,7 +212,7 @@ function validateEmail($email) {
 $rootScope.emailEquipment=function(row)
 {
    // alert(row.Equipment);
-    var mailtoURL="http://localhost:60000/api/metero/sendEmailQuery";
+    var mailtoURL="http://localhost:3500/api/metero/sendEmailQuery";
     var jsonObject=[];
     $.confirm({
     title: 'Submit Query',
@@ -334,7 +334,7 @@ $rootScope.emailEquipment=function(row)
 
 $rootScope.EmailQuery=function()
 {
-    var mailtoURL="http://localhost:60000/api/metero/sendEmailQuery";
+    var mailtoURL="http://localhost:3500/api/metero/sendEmailQuery";
     var jsonObject=[];
     $.confirm({
     title: 'Submit Query',

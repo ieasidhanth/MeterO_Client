@@ -1,7 +1,7 @@
 ﻿app.controller('getJobsCmbXControlller',['$rootScope', '$scope','ajaxService', function ($rootScope, $scope,ajaxService) {
     
 
-    var getJobsUrl='http://localhost:60000/api/icontrol/getjobs';
+    var getJobsUrl='http://localhost:3500/api/icontrol/getjobs';
     $scope.jobs;
     $scope.selectedItem;
 
@@ -27,7 +27,7 @@
     /*getJobs();
     function getJobs() {
         //alert('m in function');
-        var url = 'http://localhost:60000/api/icontrol/getjobs';
+        var url = 'http://localhost:3500/api/icontrol/getjobs';
         var results = $http({
             method: 'GET',
             url: url

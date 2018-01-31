@@ -45,6 +45,7 @@
     <script type="text/javascript" src="js/MeterO/MeterSubmitController.js"></script>
     <script type="text/javascript" src="js/MeterO/EditEquipmentsController.js"></script>
     <script type="text/javascript" src="js/MeterO/NotificationController.js"></script>
+    <script type="text/javascript" src="js/MeterO/getPersonalEquipments.js"></script>
     <script type="text/javascript" src="js/jquery-te-1.4.0.js"></script>
     <style type="text/css">
     #warning-message { display: none; }
@@ -145,14 +146,15 @@
 
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist" id="Tablist" style="border-bottom:hidden !important" ng-controller="navTabController">
-        <li role="presentation" class="active tab_select_css" style="float:left !important;" ><a href="#meterentry" aria-controls="home" role="tab" data-toggle="tab"  >Meter Entry</a></li>
-        <li role="presentation" style="float:left !important" class="tab_select_css" ng-click="review()" ><a href="#metersubmit" aria-controls="profile"  role="tab" data-toggle="tab"    >Review Submission</a></li>
+        <li role="presentation" ng-show="{{ShowEMEquipments}}" class="tab_select_css" ng-class="{active: activePane=='MeterEntry'}" style="float:left !important;" ><a href="#meterentry" aria-controls="home" role="tab" data-toggle="tab"  >Meter Entry</a></li>
+        <li role="presentation" ng-show="{{ShowEMEquipments}}" style="float:left !important" class="tab_select_css" ng-click="review()" ><a href="#metersubmit" aria-controls="profile"  role="tab" data-toggle="tab"    >Review Submission</a></li>
         <li role="presentation" ng-show="{{ShowEditEquipmentsTab}}" style="float:left !important" class="tab_select_css" ng-click="editEquipments()" ><a href="#editEquipments" aria-controls="profile"  role="tab" data-toggle="tab"    >Manage Equipments</a></li>
+        <li role="presentation" ng-show="{{ShowPersonalEquipmentEntry}}" ng-class="{active: activePane=='PersonalEntry' }" style="float:left !important" class="tab_select_css" ng-click="" ><a href="#personal_entry" aria-controls="profile"  role="tab" data-toggle="tab"    >Personal Entry</a></li> 
       </ul>
 
       <!-- Tab panes -->
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="meterentry">
+      <div class="tab-content" ng-controller="navTabController">
+        <div role="tabpanel" class="tab-pane" ng-class="{active: activePane=='MeterEntry'}"  id="meterentry">
 
             <div class="container" id="form_wrapper"  ng-controller="radioButtonControl"  >
              
@@ -852,7 +854,226 @@
 
 
         </div>
-        <div role="tabpanel" class="tab-pane" id="settings">...</div>
+        <div role="tabpanel" class="tab-pane" ng-class="{active: activePane=='PersonalEntry' }" id="personal_entry">
+            <div class="container" id="form_wrapper">
+             
+      
+
+        <div class="row" style="margin-top:10px;">
+            <!-- row 4 column 1-->
+          
+       </div>
+       <!--- end of row4-->
+       
+
+       <!-- row 5-- <img id="mySpinner" src="img/gear.gif"/>>
+        <div class="row" style="margin-top:10px;">
+            <!-- row 5 column 1-->
+            <div class="col-md-12 col-sm-12 col-xs-12" ng-controller="getPersonalEquipments" >
+                <h3>Your Equipments</h3>
+                <div class="table-responsive ol-md-12 col-sm-12 col-xs-12" >
+                    <table st-table="displayedCollection_personalEquipments" st-safe-src="personalEquipmentCollection" class="table table-fixed-header" >
+                        <thead>
+                              <tr>
+                                
+                                
+                                
+                                <th style="border:none;"></th>
+                                <%--<th style="border:none;"></th>
+                                <th style="border:none;"></th>--%>
+                                <th style="border:none;"></th>
+                                <th style="border:none;"></th>
+                                <th style="border:none;">
+                                  
+                                    
+
+                                </th>
+                                <th style="border:none;">
+                                   <%-- <label class="checkbox-inline"> <input type="checkbox" id="toggle-event"  data-toggle="toggle"> Switch to remaining equipments.</label>--%>
+                                    
+                                </th>
+                            </tr>
+                            <tr style="border:none;">
+                                
+                                
+                                
+                                <th style="border:none;" ></th>
+                              
+                                
+                                <%--<th style="border:none;"></th>
+                                <th style="border:none;"></th>--%>
+                                <th style="border:none;"></th>
+                                <th style="border:none;"></th>
+                                <th style="border:none;"></th>
+                                
+                            </tr>
+                          
+                            <tr>
+                                                             
+                                <th st-sort="EquipmentID">Equipment No.</th>
+                                
+                                <th st-sort="Description">Description</th>
+                                <th st-sort="LicenseNumber">License No.</th>
+                                <%--<th st-sort="HourReading">Last Rec Hrs</th>
+                                <th st-sort="OdoReading">Last Rec Odo</th>--%>
+                                
+				                
+                                <th >
+                                     <button type="button"  class="btn btn-sm btn-primary"   ng-hide="true">
+					                    Log Miles
+				                    </button>
+                                </th>
+                                
+                                
+                            </tr>
+                            <tr>
+                                 
+                                <th>
+                                    <input st-search="Equipment" placeholder="" class="input-sm form-control" type="search" />
+                                </th>
+                                
+                                
+                                <th>
+                                    <input st-search="Description" placeholder="" class="input-sm form-control" type="search" />
+                                </th>
+                                <th>
+                                    <input st-search="LicenseNumber" placeholder="" class="input-sm form-control" type="search" />
+                                </th>
+                               <%-- <th>
+                                    
+                                </th>
+                                <th>
+                                    
+                                </th>--%>
+                                <%--<th>
+                                    <%--<input st-search="JobAssign" placeholder="" class="input-sm form-control" type="search" />
+                                </th>--%>
+                               
+                                
+                            </tr>
+                            
+                        </thead>
+                        <tbody >
+                            <tr  ng-repeat="row in personalEquipmentCollection" ng-class="getClass(row)"  on-long-press="alert(row)" on-touch-end="onTouchEnd()" prevent-click="true" >
+                                
+                                <td>{{row.Equipment}}</td>
+                                
+                                <td>{{row.Description}}</td>
+                                <td>{{row.LicenseNumber}}</td>
+                                <td >
+                                     <button type="button"  class="btn btn-sm btn-primary" ng-click="log(row)">
+					                    Log Miles
+				                    </button>
+                                </td>
+                               
+                                
+                             
+
+                                <!--<td>
+				<button type="button" ng-click="removeItem(row)" class="btn btn-sm btn-danger">
+					<i class="glyphicon glyphicon-remove-circle">
+					</i>
+				</button>
+				</td>-->
+                            </tr>
+                            
+
+                        </tbody>
+                        <tfoot>
+                            
+                            
+                            
+                        </tfoot>
+                    </table>
+                    
+
+                </div>
+                <h3>Daily Log</h3>
+                <div class="table-responsive ol-md-12 col-sm-12 col-xs-12" >
+                <table st-table="displayedCollection_pendingLogs" st-safe-src="pendingslogs" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="border: none;"></th>
+                            <th style="border: none;"></th>
+                            <th style="border: none;"></th>
+                            <th style="border: none;"></th>
+                            <th>
+                                <ul class="list-inline">
+                                        
+                                        <li class="pull-left">
+                                            <input class="form-control"  type="number" style="width:50px" value="5" id="itemCountPage" name="itemCountPage"  ng-model="itemCountPage"/>
+                                        </li>
+                                       <li class="pull-left" >
+                                            <div><label >Items</label></div>
+                                        </li>
+                                  </ul>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="border: none;"></th>
+                            <th st-sort="TripDate">Trip Date <i class="fa fa-fw fa-sort"></th>
+                            <th>Equipment Desc</th>
+                            <th>Trip Category</th>
+                            <th>Miles</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="row in displayedCollection_pendingLogs">
+                            <td style="border: none;">
+                                <button type="button" ng-click="editDetails(row)" class="btn btn-sm btn-danger">
+                                    <i class="fa fa-pencil"></i>
+                                </button>
+                            </td>
+                            <td>{{row.TripDate}}</td>
+                            <td>{{row.EquipmentDesc}}</td>
+                            <td>{{row.Trip_Category}}</td>
+                            <td>{{row.Miles}}</td>
+                           
+                            
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                            <tr >
+
+
+
+                                <td colspan="5" class="text-center" style="border: none !important;">
+                                    <div st-template="pagination_DailyLogsEntryScreen.html" st-pagination="" st-items-by-page="itemCountPage" st-displayed-pages="5"> </div>
+
+                                </td>
+
+
+
+                            </tr>
+                            
+
+
+                        </tfoot>
+                    </table>
+                </div>
+
+
+            </div>
+       </div>
+      <!--- end of row5-->
+
+      <!-- row 6-->
+         <div class="row" style="margin-top: 10px;">
+             <!--- row 6 column 1-->
+             <!--<div class="col-md-6 col-lg-12" ng-controller="getToLocationCmbXContoller">
+                 <label style="margin-left: 10px;">
+                     <h3>Transfer to {{TransferTo.Description}}</h3>
+                 </label>
+             </div>-->
+        </div>
+      <!-- end of row6-->
+      <!-- row7-->
+        <div class="row" style="margin-top:10px;margin-bottom:10px">
+          
+       </div>
+        </div>
       </div>
 
     </div>
@@ -885,87 +1106,7 @@
              </div>
          </div>-->
 
-         <!--- modal grid--->
-         <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
-             <div class="modal-dialog modal-lg" role="document">
-                 <div class="modal-content">
-                     <div class="modal-header">
-                         <button type="button" class="close" data-dismiss="modal" id="modalclose" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                         <h4 class="modal-title" id="gridModalLabel"></h4>
-                         <br />
-                         
-                     </div>
-                     <div class="modal-body">
-                         <div class="container-fluid bd-example-row">
-                           
-                             <div class="row" >
-                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                     <div class="table-responsive col-md-12 col-sm-12 col-xs-12" ng-controller="MeterSubmitController">
-                                         <table st-table="displayedCollection" st-safe-src="remainingEquipments" class="table">
-                                             <thead>
-                                                 
-                                                 <tr>
-                                                     <th style="text-align:center;border:none !important"></th>
-                                                     <th st-sort="EquipmentID" style="white-space: nowrap;">Tool ID</th>
-                                                     <th st-sort="SerialNO">Serial No</th>
-                                                     
-                                                     <th st-sort="EDescription">Tool Description</th>
-                                                    
-                                                     
-                                                 </tr>
-
-                                               
-                                             </thead>
-                                             <tbody >
-                                                 <tr ng-repeat="row1 in displayedCollection" >
-                                                     <td style="white-space: nowrap;width: 1%;border:none !important"><i class="fa fa-link fa-1x"  aria-hidden="true" ng-show="{{row1.Attachment}}" data-toggle="tooltip" data-placement="top"  title="{{((row1.AttachToEquip)+' - '+(row1.AttachmentDesc))+' will be included in batch'}}" href="#" class="btn"  ng-click="$event.stopPropagation();"  ></i></td>
-                                                     <td>{{row1.EquipmentID}}</td>
-                                                     <td>{{row1.SerialNo}}</td>
-                                                     
-                                                     <td>{{row1.Description}}</td>
-                                                     <td>{{row1.JobDescription}}</td>
-
-                                                     
-                                                 </tr>
-
-                                             </tbody>
-                                             <tfoot>
-                                                 <tr>
-                                                     <td colspan="5" class="text-center" style="border:none !important;">
-                                                         <div st-template="pagination_modal_select.html" st-pagination="" st-items-by-page="5" st-displayed-pages="10"></div>
-                                                     </td>
-
-                                                 </tr>
-                                             </tfoot>
-                                         </table>
-                                         
-                                         <!--<span style="float:right;"><h4> <span class="label label-info"><i class="glyphicon glyphicon glyphicon-cog"></i> {{SelectedItemCount}} tool/s in the job</span></h4></span>-->
-
-                                     </div>  
-                                 
-                                 </div>
-                                 
-                     
-                   
-                             </div>
-
-                          
-                     <div class="modal-footer" ng-controller="scheduleJobController" >
-                      
-                            
-                                        
-                         
-                         
-                         <button type="button"  class="btn " data-dismiss="modal" ng-click="reload()">Cancel</button>
-                         <button type="button"  class="btn btn-primary" ng-click="">Submit</button>
-                     </div>
-                </div>
-             </div>
-                </div>
-         
-
-            </div>
-         </div>  
+ 
         
         </div> 
     

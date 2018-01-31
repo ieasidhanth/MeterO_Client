@@ -1,7 +1,7 @@
 app.controller('getToJobsCmbXController', ['$scope','$rootScope','ajaxService', function($scope,$rootScope,ajaxService){
 	
     //get to jobs
-	var getToJobsUrl='http://localhost:60000/api/metero/getjobs';
+	var getToJobsUrl='http://localhost:3500/api/metero/getjobs';
     $scope.tojobs;
     $scope.selectedItemToJobs;
    // $scope.users = UserService.all();

@@ -130,3 +130,36 @@ C:\inetpub\wwwroot\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlat
 C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
 C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.dll
 C:\inetpub\wwwroot\Power_Apps\obj\Debug\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\ApplicationInsights.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\csc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\vbc.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\VBCSCompiler.exe
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\IEA_PowerApps.dll.config
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\IEA_PowerApps.pdb
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.Web.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.Web.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\obj\Debug\IEA_PowerApps.csprojResolveAssemblyReference.cache
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\obj\Debug\IEA_PowerApps.dll
+C:\Users\ssharma\Documents\Visual Studio 2015\Projects\GIT\Source\Power_Apps\obj\Debug\IEA_PowerApps.pdb

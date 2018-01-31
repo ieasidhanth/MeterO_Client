@@ -1,6 +1,6 @@
 app.controller('getToLocationCmbXContoller', ['$scope','$rootScope','ajaxService', function($scope,$rootScope,ajaxService){
 
-	var getJobsUrl='http://localhost:60000/api/icontrol/getLocations';
+	var getJobsUrl='http://localhost:3500/api/icontrol/getLocations';
     $scope.toLocations;
     $scope.toLocationSelectedItem;
 
